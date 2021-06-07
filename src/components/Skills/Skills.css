@@ -1,0 +1,236 @@
+ /* :root {
+    --primary: lightyellow;
+    --text:#363636;
+    --light: white;
+}
+
+@font-face {
+    src: url(".././../images/nav.png");
+    font-family: d-din;
+}
+*{
+    font-family: d-din;
+}
+section > header {
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    padding:24px;
+    color: var(--primary);
+}
+section .skill{
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+    margin-inline: auto;
+}
+
+@media screen and (min-width: 600px){
+    .skill {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .skill {
+        grid-template-columns:1fr;
+    }
+}
+
+/* #36302f */
+/* .skill .set{
+    background-color: rgb(78, 75, 75);
+    padding: 24px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.skill .set:hover {
+    box-shadow: 0px 12px 16px #35363624;
+}
+
+.set span{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+    background-color: var(--primary);
+    color: yellowgreen;
+    border-radius: 35%;
+    margin-inline: auto;
+}
+.set > header{
+    padding-block: 24px;
+    font-size: 24px;
+    color: var(--primary);
+    text-align: center;
+    text-transform: capitalize;
+}
+.set .list{
+    padding-block: 8px;
+    display: grid;
+    grid-template-columns: 1fr 28px;
+    color: var(--light);
+    text-transform: uppercase;
+}
+.set:hover .list{
+    color: lightsalmon;
+}
+
+.pdda{
+    padding-top: 80px;
+} */
+
+
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.style1{
+    /* background-color: #333; */
+    padding-bottom: 10px;
+}
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+
+    background-color: white;
+    display: block;
+    height: 3px;
+    border: 1px solid rgba(0,0,0,0,3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1opx tomato;
+}
+.bar span{
+    height: 3px;
+    float: left;
+    background-color: rgb(170, 170, 25);
+}
+.html{
+    width: 90%;
+    animation: html 4s;
+}
+.css{
+    width: 70%;
+    animation: css 4s;
+}
+.jquery{
+    width: 90%;
+    animation: jquery 4s;
+}
+.javascript{
+    width: 85%;
+    animation: javascript 4s;
+}
+.node{
+    width: 85%;
+    animation: javascript 4s;
+}
+.express{
+    width: 70%;
+    animation: javascript 4s;
+}
+.react{
+    width: 75%;
+    animation: javascript 4s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 87%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 88%;
+    }
+}
+@keyframes express{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 86%;
+    }
+}
+@keyframes node{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .skills{
+        width: 300px;
+       
+    }
+
+}
+
+.skill{
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

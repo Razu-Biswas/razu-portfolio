@@ -1,0 +1,8 @@
+.custom-img img{
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  body{
+    background-color: #212529;
+  }

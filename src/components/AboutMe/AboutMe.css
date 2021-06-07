@@ -1,0 +1,40 @@
+.display-section {
+    margin-top: 2rem;
+    position: relative;
+    color: black;
+    overflow: hidden;
+  }
+  .design-span {
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    top: 6.8rem;
+  }
+  .profile-img img {
+    width: 70%;
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 3px solid lightgray;
+    height: 400px;
+    box-shadow:6px white;
+    margin-top: 10px;
+  }
+  .heading-1 {
+    font-size: 2rem;
+    color: #045c88;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #e7e8e9;
+  }
+  .heading-2 {
+    font-size: 3rem;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+  }
+  .info-box {
+    margin-top: 5rem;
+  }
+
+  .pdda{
+    padding-top: 60px;
+  }

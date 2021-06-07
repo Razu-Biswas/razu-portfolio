@@ -1,0 +1,30 @@
+
+#footer{
+  background-color: #252424 ;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.footer {
+  margin-top: 130px;
+  
+  color: white;
+}
+.brandColor {
+  color: turquoise;
+}
+.socialMedia {
+  margin-top: 30px;
+ 
+}
+.iconItem {
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px 6px;
+  height: 38px;
+  width: 38px;
+  background-color: #222;
+}
+list-inline li > svg {
+  color: white;
+}
