@@ -197,14 +197,14 @@ const Projects = () => {
                     {/* <p className="text-white"> ● And the user also shows her order date with time.</p> */}
                     
                     <div className="technology-tag">
-                    <a href="https://plenty-fresh-server.web.app/">
+                    <a href="https://awesome-solutions-31e07.web.app/">
                     <button type="button" class="btn btn-outline-warning">Live Link</button></a>
 
-                     <a href="https://github.com/Razu-Biswas/plenty-fresh-shop-client">
-                    <button type="button" class="btn btn-outline-warning">Client Link</button></a>
+                     <a href="https://github.com/Razu-Biswas/awesome-solutions">
+                    <button type="button" class="btn btn-outline-warning">Code Link</button></a>
 
-                         <a href="https://github.com/Razu-Biswas/plenty-fresh-shop-server">
-                      <button type="button" class="btn btn-outline-warning">Server Link</button></a>
+                         <a href="https://github.com/Razu-Biswas/awesome-solutions">
+                      <button type="button" class="btn btn-outline-warning">Code Link</button></a>
                     
 
 
